@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8b08e20231.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/diwakar.JPG">
+            </div>
+        </div>
+
+        <!-- settings menu -->
+        <div class="setting-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/diwakar.JPG">
+                    <div>
+                        <p>Diwakar Pandey</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-link">
+                    <img src="images/setting.png" class="setting-icon">
+                    <a href="#">Settings & Privacy <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/help.png" class="setting-icon">
+                    <a href="#">Help & Support <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/display.png" class="setting-icon">
+                    <a href="#">Display & Accessbility <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/logout.png" class="setting-icon">
+                    <a href="/logout">Logout <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- home section -->
+    <div class="container">
+
+        <!-- left sidebar -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png">Latest News</a>
+                <a href="#"><img src="images/friends.png">Friends</a>
+                <a href="#"><img src="images/group.png">Group</a>
+                <a href="#"><img src="images/marketplace.png">Market Place</a>
+                <a href="#"><img src="images/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p> Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png">Web Developer</a>
+                <a href="#"><img src="images/shortcut-1.png">Web Designer</a>
+                <a href="#"><img src="images/shortcut-1.png">Full Stack Web Developer</a>
+                <a href="#"><img src="images/shortcut-1.png">Website Experts</a>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/kishan_profile.jpg">
+                    <p>Kishan</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/deepak_profile.jpg">
+                    <p>Deepak</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-5.png">
+                    <p>Ravin</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-2.png">
+                    <p>Abhimanyu</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/diwakar.JPG">
+                    <div>
+                        <p>Diwakar Pandey</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i> </small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Diwakar?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">Live Video</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/diwakar.JPG">
+                        <div>
+                            <p>Diwakar Pandey</p>
+                            <span>April 15 2025, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+
+                <p class="post-text">“Life isn’t about waiting for the perfect moment; it’s about making every moment
+                    perfect through your
+                    mindset and actions.</p>
+                <img src="images/diwakar.JPG" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icon">
+                        <div><a href="#"><i class="fa-regular fa-thumbs-up"></i></a>120</div>
+                        <div><a href="#"><i class="fa-regular fa-comment"></i></a>40</div>
+                        <div><a href="#"><i class="fa-solid fa-share"></i></a>25</div>
+
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/diwakar.JPG"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/deepak_profile.jpg">
+                        <div>
+                            <p>Deepak Pandey</p>
+                            <span>March 15 2025, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+
+                <p class="post-text">“No matter where life takes us, the memories we’ve built together will always make
+                    me smile. Here’s to laughter, late-night talks, and friendships that never fade.”</p>
+                <img src="images/deepak_post.jpg" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icon">
+                        <div><a href="#"><i class="fa-regular fa-thumbs-up"></i></a>120</div>
+                        <div><a href="#"><i class="fa-regular fa-comment"></i></a>40</div>
+                        <div><a href="#"><i class="fa-solid fa-share"></i></a>25</div>
+
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/deepak_profile.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/kishan_profile.jpg">
+                        <div>
+                            <p>Kishan Kumar</p>
+                            <span>May 15 2025, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+
+                <p class="post-text">“Great things never come from comfort zones — so here I am, coding, creating, and
+                    chasing my dreams fearlessly.”</p>
+                <img src="images/kishan.jpg" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icon">
+                        <div><a href="#"><i class="fa-regular fa-thumbs-up"></i></a>120</div>
+                        <div><a href="#"><i class="fa-regular fa-comment"></i></a>40</div>
+                        <div><a href="#"><i class="fa-solid fa-share"></i></a>25</div>
+
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/kishan_profile.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-5.png">
+                        <div>
+                            <p>Ravin kumar</p>
+                            <span>March 15 2025, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+
+                <p class="post-text">“I may not have everything figured out, but I’m building, improving, and learning —
+                    one line of code and one step at a time.”</p>
+                <img src="images/ravin_profile_post.jpg" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icon">
+                        <div><a href="#"><i class="fa-regular fa-thumbs-up"></i></a>120</div>
+                        <div><a href="#"><i class="fa-regular fa-comment"></i></a>40</div>
+                        <div><a href="#"><i class="fa-solid fa-share"></i></a>25</div>
+
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/member-5.png"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-2.png">
+                        <div>
+                            <p>Abhimanyu Pandey</p>
+                            <span>June 15 2025, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+
+                <p class="post-text">“The secret to growth is consistency — no matter how small the progress, keep
+                    moving forward.”</p>
+                <img src="images/abhimanyu_profilr_post.jpg" class="post-img">
+
+                <div class="post-row">
+
+                    <div class="activity-icon">
+                        <div><a href="#"><i class="fa-regular fa-thumbs-up"></i></a>120</div>
+                        <div><a href="#"><i class="fa-regular fa-comment"></i></a>40</div>
+                        <div><a href="#"><i class="fa-solid fa-share"></i></a>25</div>
+
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/member-2.png"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+                </div>
+            </div>
+            <button type="button" class="load_more_btn">Load More</button>
+
+
+
+        </div>
+
+        <!-- right sidebar -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See all</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>13</h3>
+                    <span>April</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>1</h3>
+                    <span>September</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>Riya</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/kishan_profile.jpg">
+                </div>
+                <p>Kishan Kumar</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/deepak_profile.jpg">
+                </div>
+                <p>Deepak Pandey</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2025- Diwakar Pandey</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
