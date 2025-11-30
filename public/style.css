@@ -1165,3 +1165,111 @@ profile-conatiner*/
         height: 30px;
     }
 }
+
+/* ============================
+   TABLET + MOBILE (Below 1024px)
+============================ */
+@media (max-width: 1024px) {
+
+    .right-login {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .right-login img {
+        width: 180px;
+        margin: 0 0 20px 0;
+    }
+
+    .login-area {
+        margin: 0;
+        padding: 25px;
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .login-area input,
+    .login-area button,
+    .login-area .login-create {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .divider::before,
+    .divider::after {
+        width: 40%;
+    }
+}
+
+
+/* ============================
+   MOBILE (Below 600px)
+============================ */
+@media (max-width: 600px) {
+    .warning {
+        position: absolute;
+        top: 0;
+        margin-bottom: 0;
+
+    }
+
+    .right-login img {
+        width: 150px;
+    }
+
+    .login-area {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .login-area input {
+        /* width: 100%; */
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .login-area button,
+    .login-area .login-create {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .divider::before,
+    .divider::after {
+        width: 30%;
+    }
+}
+
+
+/* ============================
+   SMALL MOBILE (Below 400px)
+===============================
+*/
+@media (max-width: 400px) {
+
+    .right-login img {
+        width: 130px;
+    }
+
+    .login-area p {
+        font-size: 16px;
+    }
+
+    .login-area input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .login-area button,
+    .login-area .login-create {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .divider::before,
+    .divider::after {
+        width: 25%;
+    }
+}
