@@ -1174,7 +1174,8 @@ profile-conatiner*/
     .right-login {
         flex-direction: column;
         height: auto;
-        padding: 30px 20px;
+        padding: 10px 20px;
+        /* background: #1055c9; */
         text-align: center;
     }
 
