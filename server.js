@@ -19,7 +19,7 @@ let savedPassword = null;
 
 // Default route → show login page
 app.get("/", (req, res) => {
-    res.redirect("/login.html");
+    res.redirect("/user-login.html");
 });
 
 // Signup route
@@ -31,7 +31,7 @@ app.post("/signup", (req, res) => {
 
     console.log("Signup OK:", savedEmail);
 
-    res.redirect("/login.html");
+    res.redirect("/user-login.html");
 });
 
 // Login route
@@ -56,7 +56,7 @@ app.get("/logout", (req, res) => {
 
     // redirect to login page
 
-    res.redirect("/login.html");
+    res.redirect("/user-login.html");
 })
 
 
